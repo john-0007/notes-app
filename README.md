@@ -1,3 +1,2 @@
-# Notes App 
-### with ES6 vanilla javascript  
+# Notes App ##### the with ES6 vanilla javascript  
 
