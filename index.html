@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Note App</title>
+  </head>
+  <body>
+    <h1>Notes App</h1>
+    <h2>Take notes and nerver forget</h2>
+    <input type="text" placeholder="filter todos" id="sesrch-text">
+    <select id="filter-by">
+      <option value="byEditted">Sort by last edited</option>
+      <option value="byCreated">Sort by recenly created</option>
+      <option value="alphabatical">Sort by alphabatically</option>
+    </select>
+    <div id="notes"></div>
+    <button id="create-note">Create Note</button>
+    <form id="note-form">
+      <input type="text" name="noteName">
+      <button>Add Todo</button>
+    </form>
+    <script src="note-app.js"></script>
+  </body>
+</html>
