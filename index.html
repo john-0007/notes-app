@@ -11,7 +11,7 @@
     <h2>Take notes and nerver forget</h2>
     <input type="text" placeholder="filter todos" id="sesrch-text">
     <select id="filter-by">
-      <option value="byEditted">Sort by last edited</option>
+      <option value="byEdited">Sort by last edited</option>
       <option value="byCreated">Sort by recenly created</option>
       <option value="alphabatical">Sort by alphabatically</option>
     </select>
@@ -21,6 +21,8 @@
       <input type="text" name="noteName">
       <button>Add Todo</button>
     </form>
+    <script src="uuid.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
     <script src="notes-function.js"></script>
     <script src="note-app.js"></script>
   </body>
